@@ -1,8 +1,10 @@
-import Navigationbar from "../_test_/components/navigationBar";
+import {Navigationbar} from "../_test_/components/navigationBar";
 const HomePage = () => {
   return (
     <>
-      <Navigationbar/>
+      {/* <Navigationbar loginstatus ="logedin"/>
+      <Navigationbar loginstatus ="Admin"/> */}
+      <Navigationbar />
     </>
   );
 };
