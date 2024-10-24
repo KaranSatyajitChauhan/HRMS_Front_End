@@ -4,6 +4,9 @@ import HomePage from './pages/Homepage';
 const routerDefinition = createRoutesFromElements(
   <Route>
     <Route path='/' element={<HomePage/>}/>
+    <Route path='/' element={<HomePage/>}/>
+    <Route path='/' element={<HomePage/>}/>
+
   </Route>
 );
 const router = createBrowserRouter(routerDefinition);
