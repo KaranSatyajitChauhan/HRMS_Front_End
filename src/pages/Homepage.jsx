@@ -1,8 +1,12 @@
-import Navigationbar from "../_test_/components/navigationBar";
+import {Navigationbar,Carousel,Footter} from "../_test_/components/mainPageComponents";
 const HomePage = () => {
   return (
     <>
-      <Navigationbar/>
+      {/* <Navigationbar loginstatus ="logedin"/>
+      <Navigationbar loginstatus ="Admin"/> */}
+      <Navigationbar />
+      <Carousel/>
+      <Footter/>
     </>
   );
 };

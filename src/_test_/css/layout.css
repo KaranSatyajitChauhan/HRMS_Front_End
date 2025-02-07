@@ -1,9 +1,10 @@
+/* Navigation bar css */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: 15px 30px;
+    padding-inline: 2%;
     height: 100px;
 }
 
@@ -30,5 +31,72 @@
 }
 
 .nav-item a:hover {
-    color: #ff6347; /* Change to desired hover color */
+    color: #c966ff;/* Change to desired hover color */
+}
+
+/* Carousel Css */
+
+.carouseContainer{
+    display: flex;
+    width: fit-content;
+    padding: 2%;
+    background-color: black;
+    margin: 2%;
+    border-radius: 2%;
+    height: fit-content;
+}
+
+.carousel{
+    width:fit-x;
+    max-height: fit-content;
+}
+.carouselsidebar{
+    width:45%;
+    border-radius: 2%;
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+    padding: 2%;
+    text-overflow: clip;
+    /* overflow: hidden; */
+    max-height:100%;
+}
+
+.carouselImage{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* css for Footer */
+
+.footerContainer{
+    display: inline-flex;
+    margin-top: 10%;
+    width: fit-content;
+}
+
+.listContainer{
+    margin-inline: 5%;
+}
+.footerUlist{
+    margin-inline: 5%;
+    width: max-content; 
+}
+
+.SearchBarContainer {
+    display: flex;
+}
+
+.SearchBar{
+}
+.SearchBar input{
+    width: fit-content;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #565656;
+}
+
+.SearchBarIcon{
+    
 }
